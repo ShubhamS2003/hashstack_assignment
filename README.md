@@ -76,5 +76,9 @@ Run the server
   node app.js
 ```
 
+## Postman
+
+[Workspace](https://www.postman.com/shubhams2003/workspace/hashstack-assignment-apis)
+
 
 
