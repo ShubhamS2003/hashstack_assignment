@@ -9,12 +9,12 @@ generator client {
 }
 
 datasource db {
-  provider = "mongodb"
-  url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("POSTGRE_URL")
 }
 
 model Blocks {
-  id              String @id @default(auto()) @map("_id") @db.ObjectId
+  id              String     @id @default(uuid())
   block_number    BigInt
   name            String
   hash            String
