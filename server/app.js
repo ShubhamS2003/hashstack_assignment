@@ -7,10 +7,10 @@ require("dotenv").config();
 
 
 // Update the database each time the server is turned on
-// blockHelper.storeBlockDetails();
+blockHelper.storeBlockDetails();
 
 // Update the database each time a new block is mined on the chain
-// blockHelper.fetchLatestBlock();
+blockHelper.fetchLatestBlock();
 
 const app = express();
 
